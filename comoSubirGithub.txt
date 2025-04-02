@@ -1,0 +1,87 @@
+
+
+                 ====== Como subir projetos para github ==========
+
+1. Inicializar o Git no projeto
+Abra o terminal na pasta do seu projeto (no caso, reactNative_expo) e execute:
+
+git init
+
+Isso inicializa um repositório Git local na pasta do projeto.
+
+2. Adicionar os arquivos ao repositório
+Adicione todos os arquivos do projeto ao repositório local:
+
+git add .
+
+3. Fazer o primeiro commit
+Crie o primeiro commit com uma mensagem descritiva:
+
+git commit -m "Primeiro commit do projeto Estacionamento"
+
+4. Criar um repositório no GitHub
+Acesse github.com e faça login na sua conta.
+Clique no botão New (ou Novo) no canto superior direito para criar um novo repositório.
+Preencha os campos:
+Repository name: Escolha um nome para o repositório (por exemplo, estacionamento).
+Description: Opcional, adicione uma descrição para o projeto.
+Escolha se o repositório será Public (público) ou Private (privado).
+Clique em Create repository.
+
+5. Conectar o repositório local ao GitHub
+No terminal, conecte o repositório local ao repositório remoto no GitHub. Substitua <URL_DO_REPOSITORIO> pela URL do repositório que você criou (por exemplo, https://github.com/seu-usuario/estacionamento.git):
+
+git remote add origin <URL_DO_REPOSITORIO>
+
+6. Enviar os arquivos para o GitHub
+Envie os arquivos do repositório local para o repositório remoto no GitHub:
+
+git branch -M main
+git push -u origin main
+
+7. Verificar no GitHub
+Acesse o repositório no GitHub e verifique se os arquivos foram enviados corretamente.
+
+Comandos resumidos:
+
+git init
+git add .
+git commit -m "Primeiro commit do projeto Estacionamento"
+git remote add origin <URL_DO_REPOSITORIO>
+git branch -M main
+git push -u origin main
+
+Conclusão
+Agora seu projeto está salvo no GitHub como um repositório. Você pode compartilhar o link do repositório com outras pessoas ou continuar trabalhando no projeto e enviando atualizações com os comandos git add, git commit e git push.
+
+
+
+             ========== SALVAR DEMAIS ALTERAÇÕES NO GITHUB ===========
+
+
+Para salvar as atualizações do seu projeto no GitHub após o repositório já ter sido configurado, você pode seguir os passos abaixo:
+
+1- Passos para salvar atualizações no GitHub
+Abra o terminal na pasta do projeto Certifique-se de que você está na pasta do projeto onde o repositório Git foi inicializado.
+
+2- Adicione os arquivos modificados ao repositório Use o comando abaixo para adicionar todas as alterações feitas no projeto ao repositório local:
+
+git add .
+
+3- Crie um commit com uma mensagem descritiva Crie um commit para registrar as alterações. Substitua "Mensagem descritiva" por uma descrição do que foi alterado:
+
+git commit -m "Mensagem descritiva"
+
+Exemplo de mensagem:
+
+git commit -m "Corrigido cálculo do horário de saída e ajuste no valor para menos de 1 hora"
+
+4- Envie as alterações para o GitHub Use o comando abaixo para enviar as alterações para o repositório remoto no GitHub:
+
+git push
+
+Comandos resumidos para salvar atualizações
+
+git add .
+git commit -m "Descrição das alterações"
+git push
